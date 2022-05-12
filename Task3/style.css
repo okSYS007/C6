@@ -1,0 +1,41 @@
+.messageHead input, .content, .senderMessage, .serverMessage {
+    border: 3px solid rgb(20, 173, 243);
+    border-radius: 4px;
+    height: 29px;
+}
+
+.messageHead button {
+    background-color: rgb(163, 224, 252);
+    border: 0;
+}
+
+.messageHead input {
+    width: 300px;
+}
+
+.messageHead button {
+    height: 35px;
+}
+
+.content {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin-top: 10px;
+    width: 482px;
+    height: 500px;
+}
+
+.senderMessage, .serverMessage, .geoMessage {
+    margin-top: 5px;
+    margin-left: 50%;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 10px; 
+    line-height: 1.5em;
+}
+
+.serverMessage {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 50%;
+}
